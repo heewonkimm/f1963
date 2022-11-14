@@ -1,7 +1,7 @@
 # 삼성중공업_PORTFOLIO  
  
 ## :pencil: 홈페이지 개요
-<img width="80%" src="https://user-images.githubusercontent.com/99087758/201662355-f2336c82-072e-4fc5-90af-c7116cae14d1.jpg"/>
+<img width="80%" src="https://user-images.githubusercontent.com/99087758/201684584-7ec13580-4230-4ed1-a07d-bbab74cb0a85.jpg"/>
 
 > **프로젝트**: 삼성중공업 홈페이지 리뉴얼
 > 
