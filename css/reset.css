@@ -1,0 +1,59 @@
+/*reset*/
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Noto Sans KR', '맑은 고딕', 'Nanum Myeongjo', serif, sans-serif;
+    transition: all 0.8s;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix::before, clearfix::after {
+    display: block; 
+    content: ''; 
+    clear: both;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*백그라운드 컬러 설정*/
+.color-black {
+    background-color: #000;
+}
+
+.color-white {
+    background-color: #fff;
+}
+
+
+
+

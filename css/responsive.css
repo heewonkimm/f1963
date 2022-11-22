@@ -1,0 +1,740 @@
+/*1600px 반응형 시작*/
+@media all and (max-width:1600px) {
+    
+/*로케이션 시작*/
+.space_list {
+    font-size: 3.3vw;
+    line-height: 7vh;
+} 
+    
+.space_list .img_box {
+    height: 5vh;
+}    
+    
+#location .right_img {
+    width: 33vw;
+    height: 36vw;
+}
+
+    
+/*가로스크롤 시작*/
+/*page01*/
+.content01 ul li:nth-child(1), .content01 ul li:nth-child(2){
+    font-size: 6vw;
+    line-height: 80px;
+}
+
+.content01 > ul > li .flex_box li {
+    font-size: 9.5vw;
+    line-height: 210px;
+}
+
+/*page05*/
+.page05 .txt_box div:nth-child(1) {
+    font-size: 3vw;
+}
+.page05 .txt_box div:nth-child(2), .page05 .txt_box div:nth-child(3) {
+    width: 560px;
+    font-size: 1vw;
+}
+
+/*page06*/
+.page06 .center_txt2 {
+    width: 38vw;
+}    
+
+.page06 .txt_box div:nth-child(1) {
+    width: 35vw;
+    font-size: 3vw;
+}
+.page06 .txt_box div:nth-child(2) {
+    width: 36vw;
+    font-size: 1vw;
+}
+    
+    
+/*뉴스피드 시작*/    
+.newsfeed .title {
+    font-size: 8vw;
+}
+
+.newsfeed .subtitle {
+    font-size: 1.5vw;
+}
+
+.feed_contents .cont_list > div {
+    width: 400px;
+    height: 400px;
+    margin-right: 80px;
+}
+
+.blind_box {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background: #111;
+    margin-right: 80px;
+}
+    
+
+/*뉴스레터 시작*/
+.newsletter01, .newsletter02 {
+    width: 50%;
+}   
+    
+.newsletter01 h1, .newsletter02 h1 {
+    font-size: 3vw;
+}
+
+.newsletter01 p {
+    font-size: 1.5vw;
+}
+
+.newsletter02 p, .newsletter02 .small-p {
+    font-size: 1.5vw;
+    line-height: 30px;
+}    
+    
+    
+/*푸터 시작*/
+.footer > div:nth-child(1) {
+    font-size: 2w;
+}
+
+.footer span {
+    font-size: 1vw;
+}
+    
+.footer .footer_list {
+    font-size: 1.2vw;
+}
+    
+.footer div ul li ul li {
+    font-size: 1.1vw;
+}
+
+.footer .address div:first-child {
+    font-size: 1.1vw;
+}    
+    
+.footer .address {
+    font-size: 1.1vw;
+}
+    
+.copyright div:first-child {
+    font-size: 1vw;
+}
+
+.copyright div:last-child {
+    font-size: 1.3vw;
+}
+    
+      
+}
+/*1600px 반응형 끝*/
+
+
+
+
+
+
+
+/*1200px 반응형 시작*/
+@media all and (max-width:1200px) {
+    
+/*헤더 시작*/
+header .logo {
+    left: 7%;
+    font-size: 2.5vw;
+}
+
+header .left_text {
+    opacity: 0;
+    font-size: 2vw;
+}
+
+.right_menu .button {
+    width: 0;
+}    
+    
+.menu_trigger .menu_txt, .menu_trigger .close {
+    top: -12px;
+    left: -80px;
+    font-size: 2.5vw;
+} 
+    
+.menu_trigger span:not(.menu_txt){
+    display: none;
+} 
+
+    
+/*메인 배너 시작*/
+.main_banner1 {
+    display: none;
+}
+    
+.main_banner2 {
+    display: block;
+    background-attachment: inherit;
+}    
+    
+    
+/*메뉴 시작*/     
+.menupage .menu div a {
+    font-size: 5vw;
+}
+
+    
+/*가로스크롤 시작*/    
+.sticky_parent {
+    height: 500vh;
+}
+
+.sticky {
+    position: static;
+    height: 500vh;
+}
+
+.sticky .box {
+    width: 100vw;
+}
+
+.horizontal {
+    display: block;
+}
+
+.dim {
+    height: 100vh;
+    min-width: 100vw;
+    position: relative;
+}    
+    
+/*page01*/
+.page01 {
+    height: 100vh;
+    min-width: 100vw;
+    position: relative;
+}
+    
+.pluspage {
+    min-width: 0;
+    display: none;
+}
+    
+/*page02*/
+.content01 ul li:nth-child(1), .content01 ul li:nth-child(2){
+    line-height: 60px;
+}
+
+.content01 > ul > li .flex_box li {
+    font-size: 9vw;
+    line-height: 200px;
+}
+
+/*page03*/
+.page03_cont .center_txt p {
+    font-size: 30px;
+}
+    
+.page03_cont .center_txt img {
+    height: 30px;
+}
+
+.page03_bottom_txt {
+    font-size: 17px;
+}
+    
+.page03_cont .center_txt p {
+    animation-name: none;
+}
+    
+/*page04*/
+.page04 {
+    display: none;
+}    
+    
+/*page05*/
+.page05 .center_txt {
+    margin-left: 7%;
+} 
+
+.page05 .txt_box div:nth-child(1) {
+    width: 35vw;
+    font-size: 2.8vw;
+}
+.page05 .txt_box div:nth-child(2), .page05 .txt_box div:nth-child(3) {
+    width: 35vw;
+    font-size: 1.3vw;
+    padding: 30px 0 0 0px;
+}
+    
+.page05 .right_img .box {
+    display: none;
+}
+    
+.page05 .center_txt .txt_box {
+    animation: none;
+}
+
+/*page06*/
+.animated_title {
+    display: none;
+}    
+ 
+.page06 .img01 {
+    position: absolute;
+    top: 90px;
+    left: 35px;
+    width: 22vw;
+    height: 55vh;
+}
+
+.page06 .img02 {
+    position: absolute;
+    top: 200px;
+    left: 35px;
+    width: 22vw;
+    height: 55vh;
+    margin-left: 25vw;
+}
+
+.page06 .center_txt2 {
+    margin-right: 4%;
+}     
+    
+.page06 .txt_box div:nth-child(1) {
+    width: 30vw;
+    font-size: 2.8vw;
+}
+    
+.page06 .txt_box div:nth-child(2) {
+    width: 30vw;
+    font-size: 1.3vw;
+    padding: 30px 0 0 0;
+}
+    
+.page06 .img01 .box, .img02 .box {
+    display: none;
+}
+    
+.page06 .txt_box {
+    animation: none;
+}
+ 
+    
+/*뉴스피드 시작*/ 
+.hover {
+    height: 195vh;
+}    
+    
+.newsfeed .title {
+    top: 5%;
+    left: 5%;
+}
+
+.newsfeed .subtitle {
+    top: 15%;
+    left: 5%;
+    padding-top: 13%;
+}    
+
+.hover .button {
+    display: none;
+}
+
+.feed_contents {
+    position: absolute;
+    top: 45vh;
+    margin-left: 0;
+    width: 100vw;
+}
+    
+.feed_contents .cont_list > div {
+    width: 40vw;
+    height: 400px;
+    margin: 3% 5%;
+} 
+
+.last_cont {
+    display: none;
+}
+
+.cont_list > div  {
+    position: relative;
+}    
+    
+.feed_contents p {
+    position: absolute;
+    bottom: 5px;
+    font-size: 20px;
+    padding: 16px 25px;
+}
+
+.blind {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.blind_box {
+    float: left;
+    width: 40vw;
+    height: 400px;
+    margin: 3% 5%;
+}   
+    
+.blind_box:nth-child(5) {
+    display: none;
+}    
+
+    
+/*업커밍 스크롤 시작*/
+.upcoming_img {
+    width: 350px;
+    height: 450px;
+}    
+    
+.upcoming_img:hover {
+    width: 350px;
+    height: 380px;
+}    
+    
+.upcoming_img div h1 {
+    font-size: 2.5vw;
+}
+    
+.upcoming_img .title p {
+    font-size: 1.5vw;
+}    
+ 
+    
+/*뉴스레터 시작*/
+input {
+    width: 20vw;
+    font-size: 2vw;
+}  
+    
+.newsletter02 {
+    border-left: 7px solid #000;
+}    
+    
+.newsletter01 button {
+    bottom: 18%;
+    width: 20px;
+    height: 20px;
+}
+
+.newsletter01 .arrow_left {
+    bottom: 19.8%;
+    width: 45px;
+}  
+
+    
+}
+/*1200px 반응형 끝*/
+
+
+
+
+
+
+
+/*767px 반응형 시작*/
+@media all and (max-width:767px) {
+
+/*헤더 시작*/
+header .logo {
+    padding-left: 20px;
+    font-size: 4vw;
+}
+    
+.menu_trigger .menu_txt, .menu_trigger .close {
+    top: -16px;
+    left: -11vw;
+    font-size: 4vw;
+}   
+    
+    
+/*로케이션 시작*/    
+#location {
+    position: inherit; 
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+    
+.space_list {
+    float: none;
+    font-size: 5vw;
+    line-height: 8vw;
+    padding-bottom: 10%;
+}
+    
+#location .right_img {
+    float: none;
+    width: 60vw;
+    height: 65vw;
+    margin: 0 auto;
+}
+
+.loca_height {
+    height: auto;
+}    
+   
+    
+/*가로스크롤 시작*/  
+.flex_box {
+    justify-content: flex-end;
+    flex-direction: column;
+}
+    
+.flex_box .txt {
+    width: 100%;
+    padding-top: 2%
+}
+
+.flex_box .line {
+    width: 100%;
+}
+
+/*page01*/
+.content01 > ul > li:nth-child(1), .content01 > ul > li:nth-child(2){
+    font-size: 10vw;
+    line-height: 65px;
+}
+
+.content01 > ul > li:nth-child(2) {
+    padding-bottom: 20px;
+}    
+    
+.content01 > ul > li .flex_box li {
+    font-size: 10vw;
+    line-height: 65px;
+    padding-bottom: 13px;
+}
+
+/*page03*/    
+.page03_cont .center_txt p {
+    font-size: 22px;
+}
+    
+.page03_cont .center_txt img {
+    height: 25px;
+}
+
+.page03_bottom_txt {
+    font-size: 14px;
+}
+    
+.page03_cont .center_txt p {
+    animation-play-state: running;
+}
+    
+/*page05*/
+.page05 .center_txt {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translateY(-50%);
+    margin-left: 0;
+    text-align: center;
+}  
+
+.page05 .txt_box div:nth-child(1) {
+    width: 85vw;
+    margin: 0 7.5vw;
+    font-size: 3.5vw;
+}
+    
+.page05 .txt_box div:nth-child(2), .page05 .txt_box div:nth-child(3) {
+    width: 85vw;
+    font-size: 1.8vw;
+    padding: 20px 0 0 0px;
+    margin: 0 7.5vw;
+    line-height: 20px;
+    text-align: left;
+}
+
+.page05 .right_img img {
+    width: 85vw;
+    height: 40vh;
+    margin: 55vh 7.5vw 0 0;
+}
+
+/*page06*/
+.page06 .img01 {
+    position: absolute;
+    top: 52vh;
+    left: 5.5vw;
+    width: 42vw;
+    height: 40vh;
+}
+
+.page06 .img02 {
+    position: absolute;
+    top: 52vh;
+    left: 5.5vw;
+    width: 42vw;
+    height: 40vh;
+    margin-left: 47vw;
+}
+
+.page06 .img01 .box, .page06 .img02 .box {
+    display: none;
+}
+  
+.page06 .center_txt2 {
+    top: 30%;
+    width: 85vw;
+    margin: 0 7.5vw;
+} 
+
+.page06 .txt_box div:nth-child(1) {
+    font-size: 3.5vw;
+    width: 85vw;
+    text-align: center;
+}
+.page06 .txt_box div:nth-child(2) {
+    font-size: 1.8vw;
+    width: 85vw;
+}
+ 
+    
+/*뉴스피드 시작*/
+.hover {
+    height: 170vh;
+}    
+    
+.feed_contents h1 {
+    font-size: 2.5vw;
+}
+
+.feed_contents h1 span {
+    font-size: 2.3vw;
+}
+
+.feed_contents p {
+    font-size: 2vw;
+}
+    
+.feed_contents .cont_list > div {
+    height: 300px;
+} 
+
+.blind_box {
+    height: 300px;
+}
+    
+
+/*업커밍 스크롤 시작*/
+.sticky02 .upcoming_img {
+    left: 50%;
+}
+
+.sticky03 .upcoming_img {
+    left: 50%;
+}
+
+    
+/*뉴스레터 시작*/
+.boxline {
+    height: auto;
+    padding: 130px 40px 50px 40px;
+} 
+    
+.newsletter01, .newsletter02 {
+    padding-left: 18px;
+}
+    
+.newsletter02 {
+    border-left: 3px solid #000;
+}    
+
+.newsletter02 .small_p {
+    display: none;
+}
+    
+.newsletter01, .newsletter02 {
+    width: 50%;
+    height: auto;
+} 
+   
+.newsletter01 button {
+    display: none;
+}
+
+.newsletter01 .arrow_left {
+    display: none;
+}   
+    
+    
+/*푸터 시작*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}    
+
+.footer .flex_box {
+    display: none;
+}
+    
+.footer > div:nth-child(1) {
+    width: 100%;
+    font-size: 3vw;
+    padding-top: 2%;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.footer > div:nth-child(3) {
+    width: 100%;
+}    
+    
+.footer > div:nth-child(3) img {
+    display: none
+}
+    
+.footer .address {
+    width: 100%;
+    font-size: 1.9vw;
+    padding-left: 3%;
+    padding-top: 3%;
+    color: #000;
+}
+    
+.footer .address div:first-child {
+    font-size: 1.9vw;
+}
+
+.footer span {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 1.7vw;
+}     
+    
+.copyright {
+    position: absolute;
+    bottom: 17%;
+    left: 3%;
+    width: 100%;
+    color: #000;
+}
+    
+.copyright div:first-child {
+    font-size: 1.7vw;
+    padding: 0;
+    color: #555;
+}
+    
+.copyright div:last-child {
+    display: none;
+}
+    
+    
+}
+/*767px 반응형 끝*/
+    
